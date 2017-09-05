@@ -1,0 +1,42 @@
+/*!
+ * Pirincho v1.0.0-alpha
+ * Copyright 2017-2017 Fernando Guerin
+ * Copyright 2017-2017 Pirincho Ediciones
+ */
+
+html {font-size: 20px;}
+
+body {font-family: 'Oswald', sans-serif; font-weight: 300;}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+.bg-gris, .bg-dark{
+  background-color: #414042 !important;
+}
+.bg-rojo{
+  background-color: #ed1b34;
+}
+.bg-negro{
+  background-color: #000;
+}
+
+.txt-gris{
+  color: #6d6e71;
+}
+.txt-rojo{
+  color: #ed1b34;
+}
+
+#mainnavbar {
+  font-weight: 400;
+}
+#mainnavbar .navbar-brand {
+  font-weight: 600;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 20px;
+  }
+}
